@@ -3,7 +3,8 @@ import 'package:flutter_application_4/page1.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 void main() {
-  runApp(ProviderScope(child: MyApp()) );
+  //runApp(ProviderScope(child: MyApp()) );
+  runApp( MyApp());
 }
 
 class MyApp extends StatelessWidget {
